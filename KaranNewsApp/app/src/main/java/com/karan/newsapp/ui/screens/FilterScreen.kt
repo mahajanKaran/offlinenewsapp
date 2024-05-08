@@ -1,24 +1,24 @@
-package com.khush.newsapp.ui.screens
+package com.karan.newsapp.ui.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.common.NoInternetException
 import com.karan.newsapp.data.database.entity.Source
 import com.karan.newsapp.data.model.Country
 import com.karan.newsapp.data.model.Language
 import com.karan.newsapp.ui.base.ShowError
 import com.karan.newsapp.ui.base.ShowLoading
-import com.khush.newsapp.ui.base.UIState
-import com.khush.newsapp.ui.components.CountryListLayout
-import com.khush.newsapp.ui.components.LanguageListLayout
-import com.khush.newsapp.ui.components.SourceListLayout
-import com.khush.newsapp.ui.viewmodels.filters.CountryFilterViewModel
-import com.khush.newsapp.ui.viewmodels.filters.LanguageFilterViewModel
-import com.khush.newsapp.ui.viewmodels.filters.SourceFilterViewModel
+import com.karan.newsapp.ui.base.UIState
+import com.karan.newsapp.ui.components.CountryListLayout
+import com.karan.newsapp.ui.components.LanguageListLayout
+import com.karan.newsapp.ui.components.SourceListLayout
+import com.karan.newsapp.ui.viewmodels.filters.CountryFilterViewModel
+import com.karan.newsapp.ui.viewmodels.filters.LanguageFilterViewModel
+import com.karan.newsapp.ui.viewmodels.filters.SourceFilterViewModel
 
 
 @Composable

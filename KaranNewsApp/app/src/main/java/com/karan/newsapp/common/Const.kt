@@ -1,5 +1,6 @@
 package com.karan.newsapp.common
 
+import com.karan.newsapp.BuildConfig
 import com.karan.newsapp.data.model.Country
 import com.karan.newsapp.data.model.Language
 

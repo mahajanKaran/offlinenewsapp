@@ -1,8 +1,8 @@
-package com.khush.newsapp.ui.base
+package com.karan.newsapp.ui.base
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 
 sealed class Route(
     val route: String,

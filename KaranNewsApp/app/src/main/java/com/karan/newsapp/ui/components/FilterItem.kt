@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.components
+package com.karan.newsapp.ui.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -13,7 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.data.database.entity.Source
 import com.karan.newsapp.data.model.Country
 import com.karan.newsapp.data.model.Language

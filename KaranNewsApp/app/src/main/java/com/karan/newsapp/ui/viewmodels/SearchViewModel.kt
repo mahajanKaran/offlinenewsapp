@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.viewmodels
+package com.karan.newsapp.ui.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,7 +8,7 @@ import com.karan.newsapp.common.dispatcher.DispatcherProvider
 import com.karan.newsapp.common.networkhelper.NetworkHelper
 import com.karan.newsapp.data.database.entity.Article
 import com.karan.newsapp.data.repository.NewsRepository
-import com.khush.newsapp.ui.base.UIState
+import com.karan.newsapp.ui.base.UIState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview

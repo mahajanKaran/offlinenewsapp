@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.components
+package com.karan.newsapp.ui.components
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -6,6 +6,9 @@ import androidx.compose.runtime.Composable
 import com.karan.newsapp.data.database.entity.Source
 import com.karan.newsapp.data.model.Country
 import com.karan.newsapp.data.model.Language
+import com.karan.newsapp.ui.components.CountryItem
+import com.karan.newsapp.ui.components.LanguageItem
+import com.karan.newsapp.ui.components.SourceItem
 
 
 @Composable

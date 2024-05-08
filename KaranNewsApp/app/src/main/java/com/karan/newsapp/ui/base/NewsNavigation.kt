@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.base
+package com.karan.newsapp.ui.base
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.padding
@@ -28,21 +28,21 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.gson.Gson
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.common.util.NavigationUtil.navigateSingleTopTo
 import com.karan.newsapp.common.util.NavigationUtil.navigateToCountryScreen
 import com.karan.newsapp.common.util.NavigationUtil.navigateToLanguageScreen
 import com.karan.newsapp.common.util.NavigationUtil.navigateToSourceScreen
 import com.karan.newsapp.common.util.ValidationUtil.checkIfValidArgNews
 import com.karan.newsapp.data.database.entity.Article
-import com.khush.newsapp.ui.screens.ArticleScreen
-import com.khush.newsapp.ui.screens.CountryScreen
-import com.khush.newsapp.ui.screens.LanguageScreen
-import com.khush.newsapp.ui.screens.NewsScreen
-import com.khush.newsapp.ui.screens.NewsScreenPaging
-import com.khush.newsapp.ui.screens.SavedScreen
-import com.khush.newsapp.ui.screens.SearchScreen
-import com.khush.newsapp.ui.screens.SourceScreen
+import com.karan.newsapp.ui.screens.ArticleScreen
+import com.karan.newsapp.ui.screens.CountryScreen
+import com.karan.newsapp.ui.screens.LanguageScreen
+import com.karan.newsapp.ui.screens.NewsScreen
+import com.karan.newsapp.ui.screens.NewsScreenPaging
+import com.karan.newsapp.ui.screens.SavedScreen
+import com.karan.newsapp.ui.screens.SearchScreen
+import com.karan.newsapp.ui.screens.SourceScreen
 import java.net.URLEncoder
 import kotlin.text.Charsets.UTF_8
 

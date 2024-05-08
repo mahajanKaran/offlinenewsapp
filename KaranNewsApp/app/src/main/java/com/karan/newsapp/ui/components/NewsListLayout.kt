@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.components
+package com.karan.newsapp.ui.components
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -8,6 +8,7 @@ import androidx.compose.material3.SwipeToDismiss
 import androidx.compose.material3.rememberDismissState
 import androidx.compose.runtime.Composable
 import com.karan.newsapp.data.database.entity.Article
+import com.karan.newsapp.ui.components.Article
 
 
 @Composable

@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.viewmodels
+package com.karan.newsapp.ui.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

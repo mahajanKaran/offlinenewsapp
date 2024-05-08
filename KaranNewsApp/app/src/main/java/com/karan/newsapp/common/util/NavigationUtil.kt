@@ -2,7 +2,7 @@ package com.karan.newsapp.common.util
 
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
-import com.khush.newsapp.ui.base.Route
+import com.karan.newsapp.ui.base.Route
 
 object NavigationUtil {
 

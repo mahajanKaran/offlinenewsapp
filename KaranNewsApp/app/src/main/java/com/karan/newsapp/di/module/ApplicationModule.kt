@@ -21,7 +21,7 @@ import com.karan.newsapp.data.network.ApiKeyInterceptor
 import com.karan.newsapp.di.ApiKey
 import com.karan.newsapp.di.BaseUrl
 import com.karan.newsapp.di.DbName
-import com.khush.newsapp.ui.paging.NewsPagingSource
+import com.karan.newsapp.ui.paging.NewsPagingSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

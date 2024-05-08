@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.screens
+package com.karan.newsapp.ui.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -24,16 +24,16 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.common.NoInternetException
 import com.karan.newsapp.common.util.filterArticles
 import com.karan.newsapp.data.database.entity.Article
 import com.karan.newsapp.ui.base.ShowError
 import com.karan.newsapp.ui.base.ShowLoading
-import com.khush.newsapp.ui.base.UIState
-import com.khush.newsapp.ui.components.Article
-import com.khush.newsapp.ui.components.NewsLayout
-import com.khush.newsapp.ui.viewmodels.NewsViewModel
+import com.karan.newsapp.ui.base.UIState
+import com.karan.newsapp.ui.components.Article
+import com.karan.newsapp.ui.components.NewsLayout
+import com.karan.newsapp.ui.viewmodels.NewsViewModel
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable

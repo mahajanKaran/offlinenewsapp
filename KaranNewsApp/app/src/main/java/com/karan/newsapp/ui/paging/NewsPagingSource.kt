@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.paging
+package com.karan.newsapp.ui.paging
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState

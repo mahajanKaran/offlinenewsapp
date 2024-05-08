@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.viewmodels
+package com.karan.newsapp.ui.viewmodels
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -15,7 +15,7 @@ import com.karan.newsapp.common.networkhelper.NetworkHelper
 import com.karan.newsapp.common.util.ValidationUtil.checkIfValidArgNews
 import com.karan.newsapp.data.database.entity.Article
 import com.karan.newsapp.data.repository.NewsRepository
-import com.khush.newsapp.ui.base.UIState
+import com.karan.newsapp.ui.base.UIState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

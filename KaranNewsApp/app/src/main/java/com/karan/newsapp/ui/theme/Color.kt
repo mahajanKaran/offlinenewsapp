@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.theme
+package com.karan.newsapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

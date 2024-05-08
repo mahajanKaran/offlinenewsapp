@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.base
+package com.karan.newsapp.ui.base
 
 sealed interface UIState<out T> {
     data class Success<T>(val data: T) : UIState<T>

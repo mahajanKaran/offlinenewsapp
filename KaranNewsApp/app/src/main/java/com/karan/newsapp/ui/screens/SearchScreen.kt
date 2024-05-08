@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.screens
+package com.karan.newsapp.ui.screens
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.material.icons.Icons
@@ -13,15 +13,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.common.NoInternetException
 import com.karan.newsapp.common.util.filterArticles
 import com.karan.newsapp.data.database.entity.Article
 import com.karan.newsapp.ui.base.ShowError
 import com.karan.newsapp.ui.base.ShowLoading
-import com.khush.newsapp.ui.base.UIState
-import com.khush.newsapp.ui.components.NewsLayout
-import com.khush.newsapp.ui.viewmodels.SearchViewModel
+import com.karan.newsapp.ui.base.UIState
+import com.karan.newsapp.ui.components.NewsLayout
+import com.karan.newsapp.ui.viewmodels.SearchViewModel
 
 
 @Composable

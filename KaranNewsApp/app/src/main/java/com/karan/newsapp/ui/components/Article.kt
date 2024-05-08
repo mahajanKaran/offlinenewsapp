@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.components
+package com.karan.newsapp.ui.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

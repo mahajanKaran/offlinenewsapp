@@ -1,4 +1,4 @@
-package com.khush.newsapp.ui.screens
+package com.karan.newsapp.ui.screens
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.padding
@@ -11,11 +11,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.khush.newsapp.R
+import com.karan.newsapp.R
 import com.karan.newsapp.data.database.entity.Article
 import com.karan.newsapp.ui.base.ShowError
 import com.karan.newsapp.ui.base.WebViewPage
-import com.khush.newsapp.ui.viewmodels.SharedViewModel
+import com.karan.newsapp.ui.viewmodels.SharedViewModel
 
 @Composable
 fun ArticleScreen(
